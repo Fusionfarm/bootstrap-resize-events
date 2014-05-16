@@ -36,10 +36,16 @@ var Fusionfarm = {
 					this.action.mobile();
 				}
 			}
-			else{  //desktop
+			else if((winWidth > this.grid.medium)&&(winWidth <= this.grid.large)) { //desktop
 				if(this.grid.current != 'desktop') {
 					this.grid.current = 'desktop';
 					this.action.desktop();
+				}
+			}
+			else {
+				if(this.grid.current != 'large') { // large
+					this.grid.current = 'large';
+					this.action.large();
 				}
 			}
 		},
