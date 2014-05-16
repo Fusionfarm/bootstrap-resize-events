@@ -1,16 +1,16 @@
 var Fusionfarm = {
 	bootstrap: {
 		action: {
-			xsmall: function() {
+			mobile: function() { // xsmall
 				// do xsmall stuff
 			},
-			small: function() {
+			tablet: function() { // small
 				// do small stuff
 			},
-			medium: function() {
+			desktop: function() { // medium
 				// do medium stuff
 			},
-			large: function() {
+			large: function() { // large
 				// do large stuff
 			}
 		},
