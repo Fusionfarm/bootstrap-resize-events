@@ -42,8 +42,8 @@ var Fusionfarm = {
 					this.action.desktop();
 				}
 			}
-			else {
-				if(this.grid.current != 'large') { // large
+			else { // large
+				if(this.grid.current != 'large') {
 					this.grid.current = 'large';
 					this.action.large();
 				}
