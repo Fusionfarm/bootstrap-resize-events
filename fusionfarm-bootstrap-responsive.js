@@ -1,6 +1,6 @@
 var Fusionfarm = {
 	bootstrap: {
-		actions: {
+		action: {
 			xsmall: function() {
 				// do xsmall stuff
 			},
