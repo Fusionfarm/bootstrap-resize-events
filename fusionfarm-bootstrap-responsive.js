@@ -27,19 +27,16 @@ var Fusionfarm = {
 			if((winWidth < this.grid.medium)&&(winWidth >= this.grid.small)) { //tablet
 				if(this.grid.current != 'tablet') {
 					this.grid.current = 'tablet'
-					console.log('tablet');
 				}
 			}
 			else if(winWidth < this.grid.xsmall){  //mobile
 				if(this.grid.current != 'mobile') {
 					this.grid.current = 'mobile'
-					console.log('mobile');
 				}
 			}
 			else{  //desktop
 				if(this.grid.current != 'desktop') {
 					this.grid.current = 'desktop'
-					console.log('desktop');
 				}
 			}
 		},
